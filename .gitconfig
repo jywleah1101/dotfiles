@@ -1,7 +1,7 @@
 # -*- mode: conf -*-
 [user]
-	name = Fernando Perez
-	email = Fernando.Perez@berkeley.edu
+	name = Joowon Yang
+	email = jywleah1101@berkeley.edu
 
 [include]
   # For Github username / creds / system-specific stuff, etc
@@ -88,3 +88,5 @@
 	cmd = git-nbmergetool merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 [mergetool]
 	prompt = false
+[credential "https://github.com"]
+	helper = store --file=/tmp/tmpdvtffhoh
